@@ -1,35 +1,23 @@
+# Google-Clone
+
 This project was bootstrapped with [Create React App]
+## Modules Used
 
-# Reactjs:-
+- react
+- react-dom
+- react-router-dom
+- @material-ui/core
+- @material-ui/icons
 
-It is a Javascript library for building UI and SPA.It was developed by Facebook.
-(https://github.com/facebook/create-react-app).
+## What did I learn?
 
-Reactjs documentation can be found here. (https://reactjs.org/) 
-
-## Available Scripts
-
-Create a React App in 5 min :-
-
-Create a folder for the React App.Run below code in Terminal.
-
-### `npx create-react-app [app-name]`
-
-After the installation run
-
-### `cd [app-name]`
-
-Finally in the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-# Firebase
+- To use Javascript fetch method to perform network request
+- How to use built in react hooks useState and useEffect.
+     - useState allows you to add state to your functional components.Using the useState hook inside a function component, you can create a piece of state without switching to class components.
+     - useEffect is the combination of componentDidMount, componentDidUpdate and componentWillUnmount class lifecycle methods.It is ideal place to set up listeners, fetching data from API and removing listeners before the component is removed from the DOM.
+- Use material ui for styling user interface.
+- Use react context API to share data with multiple components, without having to pass data through props manually.
+## Firebase
 
 Why to Choose Firebase ?
 

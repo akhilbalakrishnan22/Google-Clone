@@ -19,7 +19,7 @@ function SearchPage() {
     const [{ term }, dispatch] = useStateValue();
     const { data } = useGoogleSerch(term);
     //const data = Response;
-    console.log(data);
+    // console.log(data);
     return (
         <div className='searchPage'>
             <div className='header'>
